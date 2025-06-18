@@ -34,20 +34,6 @@ portrait_template = PageTemplate(  id='portrait',   frames=portrait_frame,  onPa
 landscape_template = PageTemplate(  id='landscape',   frames=landscape_frame,   onPage=on_page_landscape,   pagesize=landscape(A4))
 
 
-#doc = BaseDocTemplate(  'report.pdf',  pageTemplates=[    portrait_template,    landscape_template  ])
-"""
-'Version', 'Last test time', 'Test time', 'Device SN', 'Device alias', 'Device type', 'Rated inverter capacity (kW)', 'Lowest insulation resistance (MOhm)',
-'Lowest insulation resistance occurrence time', 'Highest parasitic capacitance (microF)', 'Highest parasitic capacitance occurrence time', 'Lowest parasitic capacitance (microF)',
-'Lowest parasitic capacitance occurrence time', 
-
-
-'Output mode', 'Current grid code', 'Quantity of PV strings', 'Positive bus capacitance (microF)',
-'Negative bus capacitance (microF)', 'Bus capacitor status', 'Total energy yield (kWh)', 'Fan runtime (hour)', 'Total on-grid runtime (hour)', 
-'Total unexpected downtime (hour)', 'Total standby duration (hour)', 'Total unexpected grid downtime (hour)', 'Total planned downtime (hour)', 
-'Total DC input duration (hour)', 'Power-limited runtime (hour)', 'Grid DC impedance (Ohm)', 'Grid AC impedance (Ohm)', 'Current error during scanning', '',
-'No.', 'Voltage of PV1 (V)', 'Current of PV1 (A)', 'Voltage of PV2 (V)', 'Current of PV2 (A)', 'Voltage of PV3 (V)', 'Current of PV3 (A)', 'Voltage of PV4 (V)',
-'Current of PV4 (A)', 'String1', 'String2', 'String3', 'String4'
-"""
 
 class Reporte:
     __story = []
